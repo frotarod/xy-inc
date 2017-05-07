@@ -123,14 +123,7 @@ function validarCampos() {
                         </c:forEach>
                     </tbody>
                 </table>
-                <table class="simpletablestyle">
-                    <tr>
-                        <td>
-                           URL REST Pega todos: <a href="<c:url value="/rest/modelo"/>">Buscar todos</a>
-                        </td>
-                    </tr>
-                </table>
-            </c:otherwise>
+              </c:otherwise>
         </c:choose>
     </div>
   
